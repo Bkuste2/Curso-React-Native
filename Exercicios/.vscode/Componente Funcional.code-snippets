@@ -1,0 +1,22 @@
+{
+	"Componente Funcional": {
+		"scope": "javascript, javascriptreact",
+		"prefix": "compfunc",
+		"body": [
+			"import React, { useState } from 'react';",
+			"import estilo from './estilo';",
+			"import { Text } from 'react-native';",
+			"",
+			"export default props => {",
+			"",
+			"    return(",
+			"        <>",
+			"            <Text style={estilo.TxtGrande}>",
+			"                $1",
+			"            </Text>",
+			"        </>",
+			"    )",
+			"}"
+		],
+	}
+}
